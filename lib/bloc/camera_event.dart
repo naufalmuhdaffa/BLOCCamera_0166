@@ -17,3 +17,7 @@ final class TapToFocus extends CameraEvent {
   TapToFocus(this.position, this.previewSize);
 }
 final class PickImageFromGallery extends CameraEvent {}
+final class OpenCameraAndCapture extends CameraEvent {
+  final BuildContext context;
+  OpenCameraAndCapture(this.context);
+}
