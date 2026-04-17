@@ -1,3 +1,4 @@
 sealed class CameraEvent {}
 
-final class InitializeCamrea extends CameraEvent {}
+final class InitializeCamera extends CameraEvent {}
+final class SwitchCamera extends CameraEvent {}
